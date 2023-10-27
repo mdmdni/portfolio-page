@@ -1,4 +1,5 @@
-*{
+/* Base styles for all screen sizes */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
- }
+}
 
 nav {
     width: 100%;
@@ -30,6 +31,7 @@ nav {
 nav .logo {
     width: 80px;
 }
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -42,3 +44,40 @@ nav ul li a {
     font-size: 17px;
 }
 
+/* Media query for smaller screens (e.g., smartphones) */
+@media (max-width: 768px) {
+    .hero {
+        padding: 0 10px; /* Adjust padding for smaller screens */
+    }
+
+    nav {
+        padding: 20px 10px; /* Adjust padding for smaller screens */
+    }
+
+    nav ul li {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+}
+
+/* Media query for even smaller screens (e.g., very small smartphones) */
+@media (max-width: 480px) {
+    .hero {
+        padding: 0 5px; /* Further adjust padding for very small screens */
+    }
+
+    nav {
+        padding: 20px 5px; /* Further adjust padding for very small screens */
+    }
+
+    nav ul li {
+        margin-left: 10px; /* Further adjust margin for very small screens */
+    }
+
+    nav .logo {
+        width: 60px; /* Adjust the logo size for very small screens */
+    }
+
+    nav ul li a {
+        font-size: 14px; /* Adjust font size for very small screens */
+    }
+}

@@ -8,29 +8,47 @@
     <!-- Beschreibung der Webseite -->
     <meta name="description" content="...">
 
+    <!-- Boxicons-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
     <!-- css sheet-->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
     </head>
     
 <body>
-    <header>
-        <div class="hero">
+    <header class="header">
+        <a href="#" class="logo">mdni.</a>
 
-            <video autoplay loop muted plays-inline>
-                <source src="source/mdni-logo.mp4" type="video/mp4">
-            </video>
-
-            <nav>
-                <img href="index.html" src="source/insta.jpg" class="logo">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="source/Mouad_Medini_Lebenslauf_26-10-2023-16-10-27.pdf">CV</a></li>
-                </ul>
-            </nav>
-        </div>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">Über mich</a>
+            <a href="#skills'n'services">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Kontakt</a>
+        </nav>
     </header>
 
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, ich bin...</h3>
+            <h1>Mouad Medini</h1>
+            <h3>und ich bin ein <span>Business IT Student</span></h3>
+            <p>blablabla</p>
+            <div class="social-media">
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+            </div>
+            <a href="#" class="btn">Mein Lebenslauf</a>
+        </div>
+
+        <div class="home-img">
+            <img class="me" src="source/HomeImage.png" alt="" width="50%" height="50%">
+        </div>
+    </section>
+
 </body>
+
 </html>

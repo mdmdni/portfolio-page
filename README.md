@@ -41,4 +41,5 @@ Für weitere Informationen oder Fragen können Sie mich über medim3@bfh.ch erre
 ## Externe Ressourcen
 
 - **CodePen-Beispiel**: Ein Teil des Codes wurde von [diesem CodePen-Beispiel](https://codepen.io/j471n/pen/vYJaLvm) inspiriert und angepasst.
+- **Codehal**: Die Hauptstruktur wurde mithilfe von (https://codehalweb.com) erarbeitet in eigener arbeit und realisation.
 - **Form.taxi**: Das Kontaktformular wurde mit (https://form.taxi/de) realisiert. 

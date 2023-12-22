@@ -7,6 +7,8 @@ Webseite: https://mdmdni.github.io/portfolio-page/
 
 Dieses Repository enthält meine persönliche GitHub-Seite, die als digitale Visitenkarte dient. Die Seite stellt meine realisierten Projekte, technologischen Fähigkeiten und beruflichen Erfahrungen vor. Sie dient als Schaufenster meiner Fähigkeiten und Kenntnisse in Webentwicklung und Programmierung.
 
+Dies Webseite wurde im Rahmen des Moduls "EWEB - Web Engineering", im Studiengang BSc Wirtschaftsinformatik, erstellt.
+
 ## Technologien
 
 - HTML: Struktur und Aufbau der Webseite (`index.html`)
@@ -39,3 +41,4 @@ Für weitere Informationen oder Fragen können Sie mich über medim3@bfh.ch erre
 ## Externe Ressourcen
 
 - **CodePen-Beispiel**: Ein Teil des Codes wurde von [diesem CodePen-Beispiel](https://codepen.io/j471n/pen/vYJaLvm) inspiriert und angepasst.
+- **Form.taxi**: Das Kontaktformular wurde mit (https://form.taxi/de) realisiert. 

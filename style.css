@@ -78,8 +78,12 @@ section {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 32vw;
     animation: floatImage 4s ease-in-out infinite;
+}
+
+.home-img {
+    margin-left: auto;
 }
 
 @keyframes floatImage {
@@ -96,8 +100,12 @@ section {
     }
 }
 
+.home-content {
+    margin-right: auto;
+}
+
 .home-content h3 {
-    font-size: 3.2rem;
+    font-size: 3.0rem;
     font-weight: 700;
 }
 
@@ -212,6 +220,8 @@ span {
     text-align: center;
     border: .2rem solid var(--bg-color);
     transition: .5s ease;
+    min-height: 21rem; /* Adjust as needed */
+    min-width: 20rem;
 }
 
 .services-container .services-box:hover {
